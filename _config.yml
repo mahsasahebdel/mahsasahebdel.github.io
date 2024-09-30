@@ -21,7 +21,7 @@ repository               : "mahsasahebdel.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "https://mahsasahebdel.github.io/images/profile.png"
+  avatar           : "profile.png"
   name             : "Mahsa Sahebdel"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. student at the University of Massachusetts Amherst."
