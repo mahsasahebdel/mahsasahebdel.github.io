@@ -33,7 +33,20 @@ I am a fourth year MS/PhD student at the [Manning College of Information and Com
 </div>
 
 
-**A Safe Exploration Strategy for Model-free Task Adaptation in Safety-constrained Grid Environments** \
+- **A Safe Exploration Strategy for Model-free Task Adaptation in Safety-constrained Grid Environments** \
   Erfan Entezami, __Mahsa Sahebdel__, Dhawal Gupta\
   **(ICDS 2024)** -- [Paper](https://arxiv.org/pdf/2408.00997)
+
+- A Holistic Approach for Equity-aware Carbon Reduction of Ridesharing Platforms\
+  __Mahsa Sahebdel__, Ali Zeynali, Noman Bashir,  Prashant Shenoy, Mohammad H. Hajiesmaili
+ **(ACM e-Energy 2024)** -- [Paper](https://arxiv.org/pdf/2402.01644.pdf)
+
+- Data-driven Algorithms for Reducing the Carbon Footprint of Ride-sharing Ecosystems\
+  __Mahsa Sahebdel__, Ali Zeynali, Noman Bashir, Mohammad H. Hajiesmaili, Jimi Oke
+ **(ACM e-Energy 2023)** -- [Poster Paper](https://dl.acm.org/doi/abs/10.1145/3599733.3606300)
+
+- TeleCrowd: A Crowdsourcing Approach to Create Informal to Formal Text Corpora\
+ Vahid Masoumi, Mostafa Salehi, Hadi Veisi, Golnoush Haddadian, Vahid Ranjbar, __Mahsa Sahebdel__
+ **(arxiv)** -- [Paper]([https://dl.acm.org/doi/abs/10.1145/3599733.3606300](https://arxiv.org/ftp/arxiv/papers/2004/2004.11771.pdf))
+  
   
