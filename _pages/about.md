@@ -24,3 +24,16 @@ I am a fourth year MS/PhD student at the [Manning College of Information and Com
 - 2023.6: Our workshop paper, "[Data-driven Algorithms for Reducing the Carbon Footprint of Ride-sharing Ecosystems](https://dl.acm.org/doi/abs/10.1145/3599733.3606300)" got accepted to ACM e-Energy'23!
 
 - 2023.1: I received the Common Good Fellowship from CICS!
+
+
+### Publications
+
+<div style="line-height:150%;">
+    <br>
+</div>
+
+
+**A Safe Exploration Strategy for Model-free Task Adaptation in Safety-constrained Grid Environments** \
+  Erfan Entezami, __Mahsa Sahebdel__, Dhawal Gupta\
+  **(ICDS 2024)** -- [Paper](https://arxiv.org/pdf/2408.00997)
+  
