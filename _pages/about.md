@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 ## About me
-Hi, I'm __Mahsa Sahebdel__ [\[CV\]](https://mahsasahebdel.github.io/files/myCV.pdf).
+Hi, I'm __Mahsa Sahebdel.
 
 I am a fourth year MS/PhD student at the [Manning College of Information and Computer Sciences](https://www.cics.umass.edu/) in [University of Massachusetts Amherst](https://www.umass.edu/). I am working at the [Sustainability, Optimization, Learning, and Algorithms Research Lab](https://solar.cs.umass.edu/) under the supervision of [Mohammad Hajiesmaili](https://www.cics.umass.edu/people/hajiesmaili-mohammad). My work focuses on emission analysis, decarbonizing, and optimizing transportation systems. I am especially interested in designing learning-augmented online algorithms that can efficiently lower the overall carbon emissions of ridesharing platforms.
 
