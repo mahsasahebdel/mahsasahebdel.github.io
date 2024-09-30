@@ -27,12 +27,6 @@ I am a fourth year MS/PhD student at the [Manning College of Information and Com
 
 
 ## Publications
-
-<div style="line-height:150%;">
-    <br>
-</div>
-
-
 - **A Safe Exploration Strategy for Model-free Task Adaptation in Safety-constrained Grid Environments** \
   Erfan Entezami, __Mahsa Sahebdel__, Dhawal Gupta\
   **(ICDS 2024)** -- [Paper](https://arxiv.org/pdf/2408.00997)
