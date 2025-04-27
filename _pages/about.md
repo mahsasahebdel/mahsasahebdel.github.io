@@ -13,6 +13,8 @@ Hi, I'm __Mahsa Sahebdel__.
 I am a fourth year MS/PhD student at the [Manning College of Information and Computer Sciences](https://www.cics.umass.edu/) in [University of Massachusetts Amherst](https://www.umass.edu/). I am working at the [Sustainability, Optimization, Learning, and Algorithms Research Lab](https://solar.cs.umass.edu/) under the supervision of [Mohammad Hajiesmaili](https://www.cics.umass.edu/people/hajiesmaili-mohammad). My work focuses on emission analysis, decarbonizing, and optimizing transportation systems. I am especially interested in designing learning-augmented online algorithms that can efficiently lower the overall carbon emissions of ridesharing platforms.
 
 ## News
+- 2025.4: Our paper, "[LEAD: Towards Learning-Based Equity-Aware Decarbonization in Ridesharing Platforms](https://arxiv.org/pdf/2408.10201)" got accepted to ACM FAccT'25!
+- 
 - 2024.7: Our paper, "[A Safe Exploration Strategy for Model-free Task Adaptation in Safety-constrained Grid Environments](https://arxiv.org/pdf/2408.00997)" got accepted to ICDS'24!
 
 - 2023.11: Our paper, "[A Holistic Approach for Equity-aware Carbon Reduction of Ridesharing Platforms](https://arxiv.org/pdf/2402.01644.pdf)" got accepted to ACM e-Energy'24!
@@ -27,12 +29,16 @@ I am a fourth year MS/PhD student at the [Manning College of Information and Com
 
 
 ## Publications
+- **LEAD: Towards Learning-Based Equity-Aware Decarbonization in Ridesharing Platforms** \
+  __Mahsa Sahebdel__, Ali Zeynali, Noman Bashir, Prashant Shenoy, Mohammad H. Hajiesmaili
+  **(ACM FAccT 2025)** -- [Paper](https://arxiv.org/pdf/2408.10201)
+
 - **A Safe Exploration Strategy for Model-free Task Adaptation in Safety-constrained Grid Environments** \
   Erfan Entezami, __Mahsa Sahebdel__, Dhawal Gupta\
   **(ICDS 2024)** -- [Paper](https://arxiv.org/pdf/2408.00997)
 
 - **A Holistic Approach for Equity-aware Carbon Reduction of Ridesharing Platforms**\
-  __Mahsa Sahebdel__, Ali Zeynali, Noman Bashir,  Prashant Shenoy, Mohammad H. Hajiesmaili
+  __Mahsa Sahebdel__, Ali Zeynali, Noman Bashir, Prashant Shenoy, Mohammad H. Hajiesmaili
  **(ACM e-Energy 2024)** -- [Paper](https://arxiv.org/pdf/2402.01644.pdf)
 
 - **Data-driven Algorithms for Reducing the Carbon Footprint of Ride-sharing Ecosystems**\
