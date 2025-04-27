@@ -14,7 +14,7 @@ I am a fourth year MS/PhD student at the [Manning College of Information and Com
 
 ## News
 - 2025.4: Our paper, "[LEAD: Towards Learning-Based Equity-Aware Decarbonization in Ridesharing Platforms](https://arxiv.org/pdf/2408.10201)" got accepted to ACM FAccT'25!
-- 
+
 - 2024.7: Our paper, "[A Safe Exploration Strategy for Model-free Task Adaptation in Safety-constrained Grid Environments](https://arxiv.org/pdf/2408.00997)" got accepted to ICDS'24!
 
 - 2023.11: Our paper, "[A Holistic Approach for Equity-aware Carbon Reduction of Ridesharing Platforms](https://arxiv.org/pdf/2402.01644.pdf)" got accepted to ACM e-Energy'24!
