@@ -10,7 +10,7 @@ redirect_from:
 ## About me
 Hi, I'm __Mahsa Sahebdel__.
 
-I am a fourth year MS/PhD student at the [Manning College of Information and Computer Sciences](https://www.cics.umass.edu/) in [University of Massachusetts Amherst](https://www.umass.edu/). I am working at the [Sustainability, Optimization, Learning, and Algorithms Research Lab](https://solar.cs.umass.edu/) under the supervision of [Mohammad Hajiesmaili](https://www.cics.umass.edu/people/hajiesmaili-mohammad). My work focuses on designing learning-augmented online algorithms for optimizing various objectives across different applications.
+I am currently a Computer Science MS/PhD student at the [Manning College of Information and Computer Sciences](https://www.cics.umass.edu/) in [University of Massachusetts Amherst](https://www.umass.edu/). I am working at the [Sustainability, Optimization, Learning, and Algorithms Research Lab](https://solar.cs.umass.edu/) under the supervision of [Mohammad Hajiesmaili](https://www.cics.umass.edu/people/hajiesmaili-mohammad). My work focuses on designing learning-augmented online algorithms for optimizing various objectives across different applications.
 
 ## News
 - 2025.4: Our paper, "[LEAD: Towards Learning-Based Equity-Aware Decarbonization in Ridesharing Platforms](https://arxiv.org/pdf/2408.10201)" got accepted to ACM FAccT'25!
