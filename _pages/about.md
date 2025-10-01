@@ -13,6 +13,10 @@ Hi, I'm __Mahsa Sahebdel__.
 I am currently a Computer Science MS/PhD student at the [Manning College of Information and Computer Sciences](https://www.cics.umass.edu/) in [University of Massachusetts Amherst](https://www.umass.edu/). I am working at the [Sustainability, Optimization, Learning, and Algorithms Research Lab](https://solar.cs.umass.edu/) under the supervision of [Mohammad Hajiesmaili](https://www.cics.umass.edu/people/hajiesmaili-mohammad). My work focuses on designing learning-augmented online algorithms for optimizing various objectives across different applications.
 
 ## News
+- 2025.8: Honored as **Outstanding Reviewer** for KDD 2025 (August Cycle)!
+    
+- 2025.2: Recognized as **Commendable Reviewer** for KDD 2025 (February Cycle)!
+  
 - 2025.4: Our paper, "[LEAD: Towards Learning-Based Equity-Aware Decarbonization in Ridesharing Platforms](https://arxiv.org/pdf/2408.10201)" got accepted to ACM FAccT'25!
 
 - 2024.7: Our paper, "[A Safe Exploration Strategy for Model-free Task Adaptation in Safety-constrained Grid Environments](https://arxiv.org/pdf/2408.00997)" got accepted to ICDS'24!
@@ -48,5 +52,13 @@ I am currently a Computer Science MS/PhD student at the [Manning College of Info
 - **TeleCrowd: A Crowdsourcing Approach to Create Informal to Formal Text Corpora**\
  Vahid Masoumi, Mostafa Salehi, Hadi Veisi, Golnoush Haddadian, Vahid Ranjbar, __Mahsa Sahebdel__
  **(arxiv)** -- [Paper]([https://dl.acm.org/doi/abs/10.1145/3599733.3606300](https://arxiv.org/ftp/arxiv/papers/2004/2004.11771.pdf))
+
+
+## Professional Services 
+- **Senior Area Chair (SAC)** \
+  KDD 2026 (Applied Data Science Track)
+
+- **Reviewer** \
+  KDD 2026 (1st Cycle), NeurIPS 2025, KDD 2025 (August Cycle), KDD 2025 (February Cycle)
   
   
