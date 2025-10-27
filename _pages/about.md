@@ -13,6 +13,8 @@ Hi, I'm __Mahsa Sahebdel__.
 I am currently a Computer Science MS/PhD student at the [Manning College of Information and Computer Sciences](https://www.cics.umass.edu/) in [University of Massachusetts Amherst](https://www.umass.edu/). I am working at the [Sustainability, Optimization, Learning, and Algorithms Research Lab](https://solar.cs.umass.edu/) under the supervision of [Mohammad Hajiesmaili](https://www.cics.umass.edu/people/hajiesmaili-mohammad). My work focuses on designing learning-augmented online algorithms for optimizing various objectives across different applications.
 
 ## News
+- 2025.10: Our paper, “[BOLA360: Near-Optimal View and Bitrate Adaptation for 360-Degree Video Streaming](https://arxiv.org/pdf/2309.04023)" got accepted to ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)!
+  
 - 2025.8: Honored as **Outstanding Reviewer** for KDD 2025 (August Cycle)!
     
 - 2025.2: Recognized as **Commendable Reviewer** for KDD 2025 (February Cycle)!
