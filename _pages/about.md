@@ -22,7 +22,7 @@ I am currently a Computer Science MS/PhD student at the [Manning College of Info
   <!-- News content -->
   <div style="flex:1; min-width:280px; border-left:4px solid #4a6cf7; padding-left:20px;">
     <ul>
-      <li><strong>2026.1:</strong> I received the <strong>Spring 2026 Thesis Proposal Writing Fellowship</strong> (full writing fellowship; $16,000 awarded in January).</li>
+      <li><strong>2026.1:</strong> I received the <strong>Spring 2026 Thesis Proposal Writing Fellowship</strong>.</li>
 
       <li><strong>2025.12:</strong> Our paper, “Smoothed Online Optimization for Target Tracking: Robust and Learning-Augmented Algorithms,” got accepted to ALT 2026!</li>
 
