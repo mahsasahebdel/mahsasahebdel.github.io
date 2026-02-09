@@ -64,7 +64,7 @@ I am currently a Computer Science MS/PhD student at the [Manning College of Info
 
 - **TeleCrowd: A Crowdsourcing Approach to Create Informal to Formal Text Corpora**\
  Vahid Masoumi, Mostafa Salehi, Hadi Veisi, Golnoush Haddadian, Vahid Ranjbar, __Mahsa Sahebdel__
- **(arxiv)** -- [Paper]([https://dl.acm.org/doi/abs/10.1145/3599733.3606300](https://arxiv.org/ftp/arxiv/papers/2004/2004.11771.pdf))
+ **(arxiv)** -- [Paper](https://arxiv.org/pdf/2004.11771)
 
 
 ## Professional Services 
