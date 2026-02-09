@@ -12,63 +12,55 @@ Hi, I'm __Mahsa Sahebdel__.
 
 I am currently a Computer Science MS/PhD student at the [Manning College of Information and Computer Sciences](https://www.cics.umass.edu/) in [University of Massachusetts Amherst](https://www.umass.edu/). I am working at the [Sustainability, Optimization, Learning, and Algorithms Research Lab](https://solar.cs.umass.edu/) under the supervision of [Mohammad Hajiesmaili](https://www.cics.umass.edu/people/hajiesmaili-mohammad). My work focuses on designing learning-augmented online algorithms for optimizing various objectives across different applications.
 
-<h2 id="news">News</h2>
+## News
 
-<div style="display:flex; gap:24px; align-items:flex-start; flex-wrap:wrap;">
+- **2026.1:** I received the **Spring 2026 Thesis Proposal Writing Fellowship**!
 
-  <!-- Sidebar (empty / visual) -->
-  <div style="width:220px;"></div>
+- **2025.12:** Our paper, *[Smoothed Online Optimization for Target Tracking: Robust and Learning-Augmented Algorithms](https://arxiv.org/pdf/2509.05930?)*, got accepted to **ALT 2026**!
 
-  <!-- News content -->
-  <div style="flex:1; min-width:280px; border-left:4px solid #4a6cf7; padding-left:20px;">
-    <ul>
-      <li><strong>2026.1:</strong> I received the <strong>Spring 2026 Thesis Proposal Writing Fellowship</strong>.</li>
+- **2025.10:** Our paper, *[BOLA360: Near-Optimal View and Bitrate Adaptation for 360-Degree Video Streaming](https://dl.acm.org/doi/epdf/10.1145/3785137)* got accepted to **ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)**!
 
-      <li><strong>2025.12:</strong> Our paper, “Smoothed Online Optimization for Target Tracking: Robust and Learning-Augmented Algorithms,” got accepted to ALT 2026!</li>
+- **2025.8:** Honored as **Outstanding Reviewer** for **KDD 2025** (August Cycle)!
 
-      <li><strong>2025.10:</strong> Our paper, <a href="https://arxiv.org/pdf/2309.04023">“BOLA360: Near-Optimal View and Bitrate Adaptation for 360-Degree Video Streaming”</a> got accepted to ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)!</li>
+- **2025.4:** Our paper, *[LEAD: Towards Learning-Based Equity-Aware Decarbonization in Ridesharing Platforms](https://dl.acm.org/doi/pdf/10.1145/3715275.3732051)* got accepted to **ACM FAccT'25**!
 
-      <li><strong>2025.8:</strong> Honored as <strong>Outstanding Reviewer</strong> for KDD 2025 (August Cycle)!</li>
+- **2025.2:** Recognized as **Commendable Reviewer** for **KDD 2025** (February Cycle)!
 
-      <li><strong>2025.4:</strong> Our paper, <a href="https://arxiv.org/pdf/2408.10201">“LEAD: Towards Learning-Based Equity-Aware Decarbonization in Ridesharing Platforms”</a> got accepted to ACM FAccT'25!</li>
+- **2024.7:** Our paper, *[A Safe Exploration Strategy for Model-free Task Adaptation in Safety-constrained Grid Environments](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10756463)* got accepted to **ICDS'24**!
 
-      <li><strong>2025.2:</strong> Recognized as <strong>Commendable Reviewer</strong> for KDD 2025 (February Cycle)!</li>
+- **2023.11:** Our paper, *[A Holistic Approach for Equity-aware Carbon Reduction of Ridesharing Platforms](https://dl.acm.org/doi/pdf/10.1145/3632775.3639586)* got accepted to **ACM e-Energy'24**!
 
-      <li><strong>2024.7:</strong> Our paper, <a href="https://arxiv.org/pdf/2408.00997">“A Safe Exploration Strategy for Model-free Task Adaptation in Safety-constrained Grid Environments”</a> got accepted to ICDS'24!</li>
+- **2023.6:** I gave an invited talk and participated in a panel discussion at the **ACM Workshop on Societal Decarbonization**!
 
-      <li><strong>2023.11:</strong> Our paper, <a href="https://arxiv.org/pdf/2402.01644.pdf">“A Holistic Approach for Equity-aware Carbon Reduction of Ridesharing Platforms”</a> got accepted to ACM e-Energy'24!</li>
+- **2023.6:** I'm attending **FCRC23**—let me know if you are there!
 
-      <li><strong>2023.6:</strong> I gave an invited talk and participated in a panel discussion at the ACM Workshop on Societal Decarbonization!</li>
+- **2023.6:** Our workshop paper, *[Data-driven Algorithms for Reducing the Carbon Footprint of Ride-sharing Ecosystems](https://dl.acm.org/doi/pdf/10.1145/3599733.3606300)* got accepted to **ACM e-Energy'23**!
 
-      <li><strong>2023.6:</strong> I'm attending FCRC23, let me know if you are there!</li>
-
-      <li><strong>2023.6:</strong> Our workshop paper, <a href="https://dl.acm.org/doi/abs/10.1145/3599733.3606300">“Data-driven Algorithms for Reducing the Carbon Footprint of Ride-sharing Ecosystems”</a> got accepted to ACM e-Energy'23!</li>
-
-      <li><strong>2023.1:</strong> I received the Common Good Fellowship from CICS!</li>
-    </ul>
-  </div>
-
-</div>
-
+- **2023.1:** I received the **Common Good Fellowship** from **CICS**!
 
 
 
 ## Publications
+- **BOLA360: Near-optimal View and Bitrate Adaptation for 360-degree Video Streaming** \
+  Ali Zeynali, __Mahsa Sahebdel__, Mohammad H. Hajiesmaili, Ramesh K. Sitaraman  
+  **(ACM Transactions on Multimedia Computing, Communications and Applications — 2025)**  
+  [Paper](https://dl.acm.org/doi/epdf/10.1145/3785137)
+  
 - **LEAD: Towards Learning-Based Equity-Aware Decarbonization in Ridesharing Platforms** \
   __Mahsa Sahebdel__, Ali Zeynali, Noman Bashir, Prashant Shenoy, Mohammad H. Hajiesmaili
-  **(ACM FAccT 2025)** -- [Paper](https://arxiv.org/pdf/2408.10201)
+  **(ACM FAccT 2025)** -- [Paper](https://dl.acm.org/doi/pdf/10.1145/3715275.3732051)
 
 - **A Safe Exploration Strategy for Model-free Task Adaptation in Safety-constrained Grid Environments** \
   Erfan Entezami, __Mahsa Sahebdel__, Dhawal Gupta\
-  **(ICDS 2024)** -- [Paper](https://arxiv.org/pdf/2408.00997)
+  **(ICDS 2024)** -- [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10756463)
 
 - **A Holistic Approach for Equity-aware Carbon Reduction of Ridesharing Platforms**\
   __Mahsa Sahebdel__, Ali Zeynali, Noman Bashir, Prashant Shenoy, Mohammad H. Hajiesmaili
- **(ACM e-Energy 2024)** -- [Paper](https://arxiv.org/pdf/2402.01644.pdf)
+ **(ACM e-Energy 2024)** -- [Paper](https://dl.acm.org/doi/pdf/10.1145/3632775.3639586)
 
 - **Data-driven Algorithms for Reducing the Carbon Footprint of Ride-sharing Ecosystems**\
   __Mahsa Sahebdel__, Ali Zeynali, Noman Bashir, Mohammad H. Hajiesmaili, Jimi Oke
- **(ACM e-Energy 2023)** -- [Poster Paper](https://dl.acm.org/doi/abs/10.1145/3599733.3606300)
+ **(ACM e-Energy 2023)** -- [Poster Paper](https://dl.acm.org/doi/pdf/10.1145/3599733.3606300)
 
 - **TeleCrowd: A Crowdsourcing Approach to Create Informal to Formal Text Corpora**\
  Vahid Masoumi, Mostafa Salehi, Hadi Veisi, Golnoush Haddadian, Vahid Ranjbar, __Mahsa Sahebdel__
