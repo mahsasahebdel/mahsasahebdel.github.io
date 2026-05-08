@@ -110,6 +110,11 @@ a {
 }
 
 
+
+.masthead__menu-item:not(.masthead__menu-item--lg) a:before {
+  display: none !important;
+}
+
 .masthead__menu-item:not(.masthead__menu-item--lg) a {
   margin: 0 0.3rem;
   padding: 0.36rem 0.72rem;
