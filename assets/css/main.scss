@@ -154,6 +154,13 @@ a {
 :root[data-theme="night"] .page__footer {
   background: #0b1220;
   color: var(--theme-text);
+  border-top-color: #0b1220;
+  margin-top: 0;
+}
+
+:root[data-theme="night"] .page__footer footer,
+:root[data-theme="night"] .page__footer-follow {
+  background: #0b1220;
 }
 
 :root[data-theme="night"] .page__footer a {
