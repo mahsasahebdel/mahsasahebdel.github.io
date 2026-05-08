@@ -10,10 +10,16 @@
       if (button) {
         button.textContent = theme === "night" ? "☀️ Day" : "🌙 Night";
       }
+
+      const themeColor = document.querySelector("meta[name=\"theme-color\"]");
+      if (themeColor) {
+        themeColor.setAttribute("content", theme === "night" ? "#0f172a" : "#ffffff");
+      }
     }
 
-    const savedTheme = localStorage.getItem(storageKey) || "day";
-    setTheme(savedTheme);
+    const savedTheme = localStorage.getItem(storageKey);
+    const prefersNight = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    setTheme(savedTheme || (prefersNight ? "night" : "day"));
 
     if (button) {
       button.addEventListener("click", function () {

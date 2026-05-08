@@ -41,23 +41,27 @@
 @import "print";
 
 :root {
+  color-scheme: light;
   --theme-bg: #ffffff;
   --theme-text: #1b1b1b;
   --theme-link: #0066cc;
 }
 
 :root[data-theme="night"] {
+  color-scheme: dark;
   --theme-bg: #0f172a;
   --theme-text: #e2e8f0;
   --theme-link: #7dd3fc;
 }
 
 body {
+  transition: background-color 0.2s ease, color 0.2s ease;
   background-color: var(--theme-bg);
   color: var(--theme-text);
 }
 
 a {
+  transition: color 0.2s ease;
   color: var(--theme-link);
 }
 
