@@ -111,6 +111,16 @@ a {
 
 
 
+
+.masthead__menu-item--lg a:before {
+  display: none !important;
+}
+
+.masthead__menu-item--lg a:hover,
+.masthead__menu-item--lg a:focus {
+  text-decoration: none;
+}
+
 .masthead__menu-item:not(.masthead__menu-item--lg) a:before {
   display: none !important;
 }
