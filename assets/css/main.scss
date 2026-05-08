@@ -126,6 +126,7 @@ a {
 .masthead__menu-item:not(.masthead__menu-item--lg) a:focus {
   background: rgba(15, 23, 42, 0.08);
   border-color: rgba(15, 23, 42, 0.2);
+  text-decoration: none;
 }
 
 :root[data-theme="night"] .masthead__menu-item:not(.masthead__menu-item--lg) a {
@@ -139,6 +140,7 @@ a {
   color: #f8fafc;
   background: rgba(148, 163, 184, 0.32);
   border-color: rgba(226, 232, 240, 0.78);
+  text-decoration: none;
 }
 
 
