@@ -14,6 +14,11 @@
     {% endif %}
   </div>
 
+  <div id="contact" class="profile-contact-card">
+    <p class="profile-contact-card__label">Contact</p>
+    <a class="profile-contact-card__email" href="mailto:{{ author.email }}">{{ author.email }}</a>
+  </div>
+
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
