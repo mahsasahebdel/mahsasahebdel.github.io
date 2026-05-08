@@ -39,3 +39,40 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+:root {
+  --theme-bg: #ffffff;
+  --theme-text: #1b1b1b;
+  --theme-link: #0066cc;
+}
+
+:root[data-theme="night"] {
+  --theme-bg: #0f172a;
+  --theme-text: #e2e8f0;
+  --theme-link: #7dd3fc;
+}
+
+body {
+  background-color: var(--theme-bg);
+  color: var(--theme-text);
+}
+
+a {
+  color: var(--theme-link);
+}
+
+.theme-toggle {
+  margin-left: 0.75rem;
+}
+
+.author__quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.6rem 0 0.8rem;
+}
+
+.name-highlight {
+  font-family: "Georgia", "Times New Roman", serif;
+  color: #8b1e3f;
+}

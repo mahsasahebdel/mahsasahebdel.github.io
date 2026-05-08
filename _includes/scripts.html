@@ -1,3 +1,28 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
+<script>
+  (function () {
+    const storageKey = "site-theme";
+    const button = document.getElementById("theme-toggle");
+    const root = document.documentElement;
+
+    function setTheme(theme) {
+      root.setAttribute("data-theme", theme);
+      if (button) {
+        button.textContent = theme === "night" ? "☀️ Day" : "🌙 Night";
+      }
+    }
+
+    const savedTheme = localStorage.getItem(storageKey) || "day";
+    setTheme(savedTheme);
+
+    if (button) {
+      button.addEventListener("click", function () {
+        const nextTheme = root.getAttribute("data-theme") === "night" ? "day" : "night";
+        localStorage.setItem(storageKey, nextTheme);
+        setTheme(nextTheme);
+      });
+    }
+  })();
+</script>
 
 {% include analytics.html %}
