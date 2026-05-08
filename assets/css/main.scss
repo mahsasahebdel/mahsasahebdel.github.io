@@ -70,16 +70,28 @@ a {
   top: 0.65rem;
   right: 3.25rem;
   z-index: 110;
+  width: 2.1rem;
+  height: 2.1rem;
   margin: 0;
-  padding: 0.35rem 0.7rem;
-  border: 1px solid rgba(0, 0, 0, 0.18);
-  background: var(--theme-bg);
+  padding: 0;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  background: transparent;
   color: var(--theme-text);
+  font-size: 1rem;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.82;
+  transition: opacity 0.2s ease, border-color 0.2s ease, color 0.2s ease;
 }
 
-:root[data-theme="night"] .theme-toggle {
-  border-color: rgba(226, 232, 240, 0.35);
+.theme-toggle:hover,
+.theme-toggle:focus {
+  opacity: 1;
 }
+
 
 @include breakpoint($medium) {
   .theme-toggle {

@@ -8,7 +8,8 @@
     function setTheme(theme) {
       root.setAttribute("data-theme", theme);
       if (button) {
-        button.textContent = theme === "night" ? "☀️ Day" : "🌙 Night";
+        button.textContent = theme === "night" ? "☀︎" : "☾";
+        button.setAttribute("aria-label", theme === "night" ? "Switch to day theme" : "Switch to night theme");
       }
 
       const themeColor = document.querySelector("meta[name=\"theme-color\"]");
