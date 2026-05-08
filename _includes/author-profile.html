@@ -14,11 +14,6 @@
     {% endif %}
   </div>
 
-  <div id="contact" class="profile-contact-card">
-    <p class="profile-contact-card__label">Contact</p>
-    <a class="profile-contact-card__email" href="mailto:{{ author.email }}">{{ author.email }}</a>
-  </div>
-
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
@@ -77,6 +72,9 @@
       {% endif %}      
       {% if author.github %}
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a></li>
+      {% endif %}
+      {% if author.cv %}
+        <li><a href="{{ author.cv }}"><i class="fas fa-fw fa-file-lines icon-pad-right" aria-hidden="true"></i>CV</a></li>
       {% endif %}
       {% if author.kaggle %}
         <li><a href="https://kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle icon-pad-right" aria-hidden="true"></i>Kaggle</a></li>
@@ -159,5 +157,12 @@
       <li><a href="htps://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
       {% endif %}      
     </ul>
+
+    {% if author.email %}
+    <div id="contact" class="profile-contact-card">
+      <p class="profile-contact-card__label">Email</p>
+      <a class="profile-contact-card__email" href="mailto:{{ author.email }}">{{ author.email }}</a>
+    </div>
+    {% endif %}
   </div>
 </div>

@@ -194,3 +194,13 @@ a {
   border-color: rgba(226, 232, 240, 0.28);
   background: rgba(15, 23, 42, 0.55);
 }
+
+
+:root[data-theme="night"] .author__urls .fa-github,
+:root[data-theme="night"] .author__urls .fab.fa-github {
+  color: #f8fafc;
+}
+
+.profile-contact-card {
+  margin: 0.55rem 0 0.15rem;
+}
