@@ -87,6 +87,10 @@ a {
   transition: opacity 0.2s ease, border-color 0.2s ease, color 0.2s ease;
 }
 
+.mobile-theme-toggle {
+  display: none;
+}
+
 .theme-toggle:hover,
 .theme-toggle:focus {
   opacity: 1;
@@ -468,7 +472,7 @@ a {
 
   .masthead__menu,
   .greedy-nav__toggle,
-  .theme-toggle {
+  #theme-toggle {
     display: none !important;
   }
 
@@ -546,5 +550,13 @@ a {
     max-width: 340px;
     margin: 0.7rem auto 0;
     text-align: center;
+  }
+
+  .mobile-theme-toggle {
+    display: inline-flex;
+    margin: 0.8rem auto 0;
+    position: static;
+    transform: none;
+    z-index: auto;
   }
 }
