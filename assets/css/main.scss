@@ -62,7 +62,15 @@ a {
 }
 
 .theme-toggle {
+  display: none;
   margin-left: 0.75rem;
+}
+
+@media (min-width: 64em) {
+  .theme-toggle {
+    display: inline-flex;
+    align-items: center;
+  }
 }
 
 .author__quick-links {
@@ -74,5 +82,5 @@ a {
 
 .name-highlight {
   font-family: "Georgia", "Times New Roman", serif;
-  color: #8b1e3f;
+  color: #000000;
 }
