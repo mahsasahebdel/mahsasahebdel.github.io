@@ -13,6 +13,3 @@ main:
     url: "/#publications"
   - title: "Services"
     url: "/#professional-services"
-  - title: "Contact"
-    url: "/#contact"
-    
