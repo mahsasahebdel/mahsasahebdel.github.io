@@ -206,3 +206,36 @@ a {
 .profile-contact-card {
   margin: 0.55rem 0 0.15rem;
 }
+
+@media (max-width: 768px) {
+  :root[data-theme="night"] .greedy-nav .hidden-links {
+    background: #0f172a;
+    border-color: rgba(226, 232, 240, 0.28);
+    box-shadow: 0 10px 24px rgba(2, 6, 23, 0.55);
+  }
+
+  :root[data-theme="night"] .greedy-nav .hidden-links li {
+    border-bottom-color: rgba(226, 232, 240, 0.22);
+  }
+
+  :root[data-theme="night"] .greedy-nav .hidden-links a {
+    color: #e2e8f0;
+    background: transparent;
+  }
+
+  :root[data-theme="night"] .greedy-nav .hidden-links a:hover,
+  :root[data-theme="night"] .greedy-nav .hidden-links a:focus,
+  :root[data-theme="night"] .greedy-nav .hidden-links a:active {
+    color: #f8fafc;
+    background: rgba(148, 163, 184, 0.2);
+    text-decoration: none;
+  }
+
+  :root[data-theme="night"] .greedy-nav .hidden-links:before {
+    border-color: rgba(226, 232, 240, 0.28) transparent;
+  }
+
+  :root[data-theme="night"] .greedy-nav .hidden-links:after {
+    border-color: #0f172a transparent;
+  }
+}
