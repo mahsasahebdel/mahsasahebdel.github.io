@@ -449,3 +449,84 @@ a {
     border-color: rgba(191, 219, 254, 0.4);
   }
 }
+
+
+@media (max-width: 768px) {
+  .masthead {
+    display: block;
+  }
+
+  .masthead__menu,
+  .greedy-nav__toggle,
+  .theme-toggle {
+    display: none !important;
+  }
+
+  .site-title,
+  .site-title:hover,
+  .site-title:focus {
+    text-decoration: none;
+  }
+
+  .author-profile-card {
+    margin: 0.65rem auto 1rem;
+    padding: 0.25rem 0.35rem 0.8rem;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    text-align: center;
+  }
+
+  .author__avatar img,
+  img.author__avatar {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .author__name {
+    margin: 0.35rem 0 0.15rem;
+  }
+
+  .author__bio {
+    margin: 0 auto 0.55rem;
+    max-width: 30ch;
+  }
+
+  .mobile-profile-links {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.55rem;
+    max-width: 340px;
+    margin: 0.55rem auto 0;
+  }
+
+  .mobile-profile-links a {
+    min-height: 44px;
+    padding: 0.55rem 0.65rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.65rem;
+  }
+
+  .mobile-profile-links a:hover,
+  .mobile-profile-links a:focus,
+  :root[data-theme="night"] .mobile-profile-links a:hover,
+  :root[data-theme="night"] .mobile-profile-links a:focus {
+    text-decoration: none;
+  }
+
+  .author__urls-wrapper {
+    display: none;
+  }
+
+  .profile-contact-card {
+    max-width: 340px;
+    margin: 0.7rem auto 0;
+    text-align: center;
+  }
+}
