@@ -748,8 +748,15 @@ a {
     object-position: center !important;
     display: block !important;
   }
-    width: auto !important;
-    height: auto !important;
+  .author-profile-card .author__name {
+
+  .author-profile-card .author__bio {
+    font-size: 0.92rem !important;
+    line-height: 1.45 !important;
+    max-width: none !important;
+    text-align: inherit !important;
+    margin: inherit !important;
+  }
     min-width: 0 !important;
     min-height: 0 !important;
     max-width: 175px !important;
