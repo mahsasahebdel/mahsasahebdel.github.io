@@ -226,7 +226,7 @@ a {
   margin: 0.55rem 0 0.15rem;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   :root[data-theme="night"] .greedy-nav .hidden-links {
     background: #0f172a;
     border-color: rgba(226, 232, 240, 0.28);
@@ -264,7 +264,7 @@ a {
   display: none;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .masthead {
     display: none;
   }
@@ -313,7 +313,7 @@ a {
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .author-profile-card {
     margin: 0.75rem auto 1rem;
     padding: 1.15rem 1rem 1rem;
@@ -382,7 +382,7 @@ a {
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .author-profile-card {
     margin: 0.45rem auto 0.9rem;
     padding: 0.3rem 0.25rem 0.7rem;
@@ -465,7 +465,7 @@ a {
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .masthead {
     display: block;
   }
@@ -569,7 +569,7 @@ a {
 }
 
 /* strict small-device avatar circle fix */
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .author-profile-card div.author__avatar {
     width: 200px !important;
     height: 200px !important;
@@ -605,7 +605,7 @@ a {
 }
 
 /* compact mobile pill buttons for profile links */
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .author-profile-card .mobile-profile-links {
     display: flex !important;
     flex-wrap: wrap !important;
@@ -650,7 +650,7 @@ a {
 }
 
 /* mobile hero readability and hierarchy refinements */
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .author-profile-card div.author__avatar {
     width: 324px !important;
     height: 324px !important;
