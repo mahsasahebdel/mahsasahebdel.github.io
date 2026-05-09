@@ -567,3 +567,39 @@ a {
     z-index: auto;
   }
 }
+
+/* strict small-device avatar circle fix */
+@media (max-width: 768px) {
+  .author-profile-card div.author__avatar {
+    width: 200px !important;
+    height: 200px !important;
+    min-width: 200px !important;
+    min-height: 200px !important;
+    max-width: 200px !important;
+    max-height: 200px !important;
+    margin: 0 auto !important;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+    display: block !important;
+  }
+
+  .author-profile-card div.author__avatar > img,
+  .author-profile-card img.author__avatar,
+  .author-profile-card .author__avatar img {
+    width: 100% !important;
+    height: 100% !important;
+    min-width: 100% !important;
+    min-height: 100% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    aspect-ratio: 1 / 1 !important;
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    height: 100% !important;
+  }
+}
