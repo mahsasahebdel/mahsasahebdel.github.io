@@ -85,7 +85,7 @@ a {
   z-index: 1000;
   width: 2.25rem;
   height: 2.25rem;
-  border-radius: 9999px;
+  border-radius: 50%;
   border: 1px solid var(--theme-border);
   background-color: var(--theme-surface);
   color: var(--theme-text);
@@ -95,6 +95,19 @@ a {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  box-shadow: 0 4px 10px rgba(15, 23, 42, 0.14);
+  transition: transform 180ms ease, opacity 180ms ease, background-color 220ms ease, color 220ms ease, border-color 220ms ease;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus-visible {
+  transform: scale(1.06);
+  opacity: 0.92;
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--theme-primary);
+  outline-offset: 2px;
 }
 
 .author__quick-links {
