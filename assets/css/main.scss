@@ -652,12 +652,12 @@ a {
 /* mobile hero readability and hierarchy refinements */
 @media (max-width: 768px) {
   .author-profile-card div.author__avatar {
-    width: 216px !important;
-    height: 216px !important;
-    min-width: 216px !important;
-    min-height: 216px !important;
-    max-width: 216px !important;
-    max-height: 216px !important;
+    width: 324px !important;
+    height: 324px !important;
+    min-width: 324px !important;
+    min-height: 324px !important;
+    max-width: 324px !important;
+    max-height: 324px !important;
     margin: 0 auto 0.3rem !important;
     border-radius: 50% !important;
     overflow: hidden !important;
@@ -674,29 +674,29 @@ a {
   }
 
   .author-profile-card .author__name {
-    font-size: 1.36rem !important;
+    font-size: 2.72rem !important;
     line-height: 1.2 !important;
     margin: 0.18rem 0 0.1rem !important;
     text-align: center !important;
   }
 
   .author-profile-card .author__bio {
-    font-size: 1rem !important;
-    line-height: 1.45 !important;
-    max-width: 32ch !important;
+    font-size: 2rem !important;
+    line-height: 1.25 !important;
+    max-width: 20ch !important;
     margin: 0 auto 0.56rem !important;
     text-align: center !important;
   }
 
   .author-profile-card .mobile-profile-links {
-    gap: 0.48rem 0.5rem !important;
+    gap: 0.72rem 0.75rem !important;
     margin: 0.5rem auto 0 !important;
   }
 
   .author-profile-card .mobile-profile-links a {
-    min-height: 36px !important;
-    padding: 0.38rem 0.76rem !important;
-    font-size: 0.84rem !important;
+    min-height: 72px !important;
+    padding: 0.76rem 1.3rem !important;
+    font-size: 1.68rem !important;
     border-radius: 9999px !important;
     text-decoration: none !important;
   }
