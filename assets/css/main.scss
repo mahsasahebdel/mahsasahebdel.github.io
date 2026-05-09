@@ -732,6 +732,22 @@ a {
   .author-profile-card .author__avatar,
   .author-profile-card .author__avatar img,
   .author-profile-card img.author__avatar {
+
+  .sidebar .author__avatar,
+  .author__avatar {
+    border-radius: 50% !important;
+    overflow: hidden !important;
+  }
+
+  .sidebar .author__avatar img,
+  .author__avatar img,
+  img.author__avatar {
+    border-radius: 50% !important;
+    aspect-ratio: 1 / 1 !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    display: block !important;
+  }
     width: auto !important;
     height: auto !important;
     min-width: 0 !important;
