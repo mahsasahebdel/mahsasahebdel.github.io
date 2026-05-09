@@ -12,7 +12,6 @@ Hi, I'm <span class="name-highlight">Mahsa Sahebdel</span>.
 
 I am currently a Computer Science MS/PhD student at the [Manning College of Information and Computer Sciences](https://www.cics.umass.edu/) in [University of Massachusetts Amherst](https://www.umass.edu/). I am working at the [Sustainability, Optimization, Learning, and Algorithms Research Lab](https://solar.cs.umass.edu/) under the supervision of [Mohammad Hajiesmaili](https://www.cics.umass.edu/people/hajiesmaili-mohammad). My work focuses on designing learning-augmented online algorithms for optimizing various objectives across different applications.
 
-I am actively looking for opportunities to collaborate on research at the intersection of machine learning, online optimization, and sustainability.
 
 ## News
 
@@ -73,8 +72,12 @@ I am actively looking for opportunities to collaborate on research at the inters
 - **Senior Area Chair (SAC)** \
   KDD 2026 (Applied Data Science Track)
 
-- **Reviewer** \
- KDD 2026 (1st Cycle), Industry Track of The ACM Web Conference 2026, NeurIPS 2025, KDD 2025 (August Cycle), KDD 2025 (February Cycle)
+- **Reviewer**
+  - KDD 2026 (1st Cycle)
+  - Industry Track of The ACM Web Conference 2026
+  - NeurIPS 2025
+  - KDD 2025 (August Cycle)
+  - KDD 2025 (February Cycle)
 
   
   

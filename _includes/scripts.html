@@ -2,26 +2,33 @@
 <script>
   (function () {
     const storageKey = "site-theme";
-    const button = document.getElementById("theme-toggle");
+    const buttons = document.querySelectorAll("[data-theme-toggle]");
     const root = document.documentElement;
 
     function setTheme(theme) {
       root.setAttribute("data-theme", theme);
-      if (button) {
-        button.textContent = theme === "night" ? "☀️ Day" : "🌙 Night";
+      buttons.forEach(function (button) {
+        button.textContent = theme === "night" ? "☀︎" : "☾";
+        button.setAttribute("aria-label", theme === "night" ? "Switch to day theme" : "Switch to night theme");
+      });
+
+      const themeColor = document.querySelector("meta[name=\"theme-color\"]");
+      if (themeColor) {
+        themeColor.setAttribute("content", theme === "night" ? "#0f172a" : "#ffffff");
       }
     }
 
-    const savedTheme = localStorage.getItem(storageKey) || "day";
-    setTheme(savedTheme);
+    const savedTheme = localStorage.getItem(storageKey);
+    const prefersNight = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    setTheme(savedTheme || (prefersNight ? "night" : "day"));
 
-    if (button) {
+    buttons.forEach(function (button) {
       button.addEventListener("click", function () {
         const nextTheme = root.getAttribute("data-theme") === "night" ? "day" : "night";
         localStorage.setItem(storageKey, nextTheme);
         setTheme(nextTheme);
       });
-    }
+    });
   })();
 </script>
 
