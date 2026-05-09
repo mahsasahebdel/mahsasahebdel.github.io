@@ -705,18 +705,11 @@ a {
 /* tablet/foldable and larger: force desktop profile/nav experience */
 @media (min-width: 601px) {
   .mobile-profile-links,
-  .mobile-theme-toggle {
-    display: none !important;
-  }
+  .mobile-theme-toggle { display: none !important; }
 
-  .author__urls-wrapper {
-    display: block !important;
-  }
-
+  .author__urls-wrapper,
   .masthead,
-  .masthead__menu {
-    display: block !important;
-  }
+  .masthead__menu { display: block !important; }
 
   .author-profile-card {
     margin: 0 !important;
@@ -729,27 +722,9 @@ a {
   }
 
   .author-profile-card div.author__avatar,
-  .author-profile-card .author__avatar,
-  .author-profile-card .author__avatar img,
-  .author-profile-card img.author__avatar {
-
-  .sidebar .author__avatar,
-  .author__avatar {
-    border-radius: 50% !important;
-    overflow: hidden !important;
-  }
-
+  .author-profile-card img.author__avatar,
   .sidebar .author__avatar img,
-  .author__avatar img,
-  img.author__avatar {
-    border-radius: 50% !important;
-    aspect-ratio: 1 / 1 !important;
-    object-fit: cover !important;
-    object-position: center !important;
-    display: block !important;
-  }
-  .author-profile-card .author__name {
-
+  .author__avatar img {
   .author-profile-card .author__bio {
     font-size: 0.92rem !important;
     line-height: 1.45 !important;
@@ -757,26 +732,13 @@ a {
     text-align: inherit !important;
     margin: inherit !important;
   }
-    min-width: 0 !important;
-    min-height: 0 !important;
-    max-width: 175px !important;
-    max-height: none !important;
-    margin: 0 !important;
-    border-radius: 50% !important;
-    object-fit: initial !important;
-
-/* desktop/tablet/foldable layout enforcement: mobile hero only for small phones */
-@media (min-width: 481px) {
-  .sidebar {
-    display: block !important;
-  }
-
-  .author-profile-card {
-    display: block !important;
-  }
+  .sidebar,
+  .author-profile-card,
+  .author__urls-wrapper,
+  .greedy-nav { display: block !important; }
 
   .mobile-profile-links,
-  .mobile-theme-toggle {
+  .mobile-theme-toggle { display: none !important; }
     display: none !important;
   }
 
