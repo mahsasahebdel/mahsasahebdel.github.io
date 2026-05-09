@@ -702,3 +702,11 @@ a {
   }
 }
 
+
+/* desktop-only bio refinement */
+@media (min-width: 1024px) {
+  .author__bio {
+    font-size: 0.92rem;
+    line-height: 1.35;
+  }
+}
