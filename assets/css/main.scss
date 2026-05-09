@@ -40,29 +40,61 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+
 :root {
   --theme-bg: #ffffff;
-  --theme-text: #1b1b1b;
-  --theme-link: #0066cc;
+  --theme-text: #1f2937;
+  --theme-primary: #2563eb;
+  --theme-surface: #f8fafc;
+  --theme-border: #d1d5db;
 }
 
-:root[data-theme="night"] {
+body.dark-mode {
   --theme-bg: #0f172a;
   --theme-text: #e2e8f0;
-  --theme-link: #7dd3fc;
+  --theme-primary: #7dd3fc;
+  --theme-surface: #1e293b;
+  --theme-border: #334155;
 }
 
 body {
   background-color: var(--theme-bg);
   color: var(--theme-text);
+  transition: background-color 220ms ease, color 220ms ease;
 }
 
 a {
-  color: var(--theme-link);
+  color: var(--theme-primary);
+  transition: color 220ms ease;
+}
+
+.page, .masthead, .greedy-nav, .sidebar, .archive, .page__footer {
+  background-color: var(--theme-bg);
+  color: var(--theme-text);
+  transition: background-color 220ms ease, color 220ms ease, border-color 220ms ease;
+}
+
+.btn, .notice, table, th, td, .author__avatar img {
+  transition: background-color 220ms ease, color 220ms ease, border-color 220ms ease;
 }
 
 .theme-toggle {
-  margin-left: 0.75rem;
+  position: fixed;
+  top: 0.85rem;
+  right: 0.85rem;
+  z-index: 1000;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 9999px;
+  border: 1px solid var(--theme-border);
+  background-color: var(--theme-surface);
+  color: var(--theme-text);
+  font-size: 1rem;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .author__quick-links {

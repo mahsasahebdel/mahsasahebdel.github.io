@@ -2,24 +2,28 @@
 <script>
   (function () {
     const storageKey = "site-theme";
-    const button = document.getElementById("theme-toggle");
-    const root = document.documentElement;
+    const toggleButton = document.getElementById("theme-toggle");
+    const body = document.body;
+    const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
 
-    function setTheme(theme) {
-      root.setAttribute("data-theme", theme);
-      if (button) {
-        button.textContent = theme === "night" ? "☀️ Day" : "🌙 Night";
+    function applyTheme(theme) {
+      const isDark = theme === "dark";
+      body.classList.toggle("dark-mode", isDark);
+      if (toggleButton) {
+        toggleButton.textContent = isDark ? "☀️" : "🌙";
+        toggleButton.setAttribute("aria-label", isDark ? "Switch to light mode" : "Switch to dark mode");
       }
     }
 
-    const savedTheme = localStorage.getItem(storageKey) || "day";
-    setTheme(savedTheme);
+    const savedTheme = localStorage.getItem(storageKey);
+    const initialTheme = savedTheme || (prefersDark ? "dark" : "light");
+    applyTheme(initialTheme);
 
-    if (button) {
-      button.addEventListener("click", function () {
-        const nextTheme = root.getAttribute("data-theme") === "night" ? "day" : "night";
+    if (toggleButton) {
+      toggleButton.addEventListener("click", function () {
+        const nextTheme = body.classList.contains("dark-mode") ? "light" : "dark";
         localStorage.setItem(storageKey, nextTheme);
-        setTheme(nextTheme);
+        applyTheme(nextTheme);
       });
     }
   })();
