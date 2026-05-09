@@ -764,6 +764,39 @@ a {
     margin: 0 !important;
     border-radius: 50% !important;
     object-fit: initial !important;
+
+/* desktop/tablet/foldable layout enforcement: mobile hero only for small phones */
+@media (min-width: 481px) {
+  .sidebar {
+    display: block !important;
+  }
+
+  .author-profile-card {
+    display: block !important;
+  }
+
+  .mobile-profile-links,
+  .mobile-theme-toggle {
+    display: none !important;
+  }
+
+  .author__urls-wrapper {
+    display: block !important;
+  }
+
+  .masthead,
+  .masthead__menu,
+  .greedy-nav {
+    display: block !important;
+  }
+
+  .layout--single .archive,
+  .layout--single .page,
+  .layout--single .page__inner-wrap {
+    width: auto !important;
+    max-width: none !important;
+  }
+}
     overflow: visible !important;
   }
 
