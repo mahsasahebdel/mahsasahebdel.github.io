@@ -67,10 +67,10 @@ a {
 }
 
 .theme-toggle {
-  position: absolute;
-  top: 50%;
-  right: 3.2rem;
-  transform: translateY(-50%);
+  position: fixed;
+  top: 0.65rem;
+  right: 0.9rem;
+  transform: none;
   margin-left: 0;
   min-width: 6.5rem;
   border: 1px solid var(--theme-border);
@@ -78,7 +78,8 @@ a {
   color: var(--theme-text);
   font-weight: 700;
   line-height: 1.2;
-  z-index: 101;
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.2);
+  z-index: 1100;
   transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
 }
 
@@ -109,6 +110,13 @@ a {
     border-color: var(--theme-border);
   }
 
+  .page__footer,
+  .page__footer footer {
+    background-color: var(--theme-bg);
+    border-top: 0;
+    box-shadow: none;
+  }
+
   .greedy-nav a,
   .page__footer,
   .page__footer a,
@@ -136,9 +144,11 @@ a {
 @media (max-width: 767px) {
   .theme-toggle {
     min-width: 5.5rem;
-    right: 3rem;
+    top: 0.55rem;
+    right: 0.55rem;
     padding: 0.35rem 0.45rem;
     font-size: 0.75rem;
+    z-index: 1200;
   }
 }
 
