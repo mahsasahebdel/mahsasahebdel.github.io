@@ -122,6 +122,17 @@ a {
   display: none;
 }
 
+.greedy-nav .visible-links a:hover {
+  opacity: 0.72;
+}
+
+.greedy-nav .visible-links a:focus,
+.greedy-nav .visible-links a:focus-visible,
+.greedy-nav .visible-links a:active {
+  outline: none;
+  box-shadow: none;
+}
+
 :root[data-theme="night"] {
   .masthead,
   .greedy-nav,
