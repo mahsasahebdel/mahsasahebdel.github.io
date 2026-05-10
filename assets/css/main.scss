@@ -218,8 +218,18 @@ a {
   font-size: 0.88rem;
 }
 
+.author__email-title {
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+}
+
 @media (max-width: 767px) {
   .masthead {
+    display: block;
+    min-height: 3.1rem;
+  }
+
+  .greedy-nav {
     display: none;
   }
 
@@ -243,7 +253,7 @@ a {
   .author__avatar {
     display: block;
     width: 75%;
-    margin: 3.25rem auto 0.75rem;
+    margin: 4.15rem auto 0.75rem;
   }
 
   .author__avatar img {

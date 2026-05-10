@@ -71,8 +71,12 @@ I am currently a Computer Science MS/PhD student at the [Manning College of Info
 - **Senior Area Chair (SAC)** \
   KDD 2026 (Applied Data Science Track)
 
-- **Reviewer** \
- KDD 2026 (1st Cycle), Industry Track of The ACM Web Conference 2026, NeurIPS 2025, KDD 2025 (August Cycle), KDD 2025 (February Cycle)
+- **Reviewer**
+  - KDD 2026 (1st Cycle)
+  - Industry Track of The ACM Web Conference 2026
+  - NeurIPS 2025
+  - KDD 2025 (August Cycle)
+  - KDD 2025 (February Cycle)
 
   
   
