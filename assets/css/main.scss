@@ -118,6 +118,10 @@ a {
   position: relative;
 }
 
+.greedy-nav .visible-links a:before {
+  display: none;
+}
+
 :root[data-theme="night"] {
   .masthead,
   .greedy-nav,
