@@ -150,6 +150,13 @@ a {
     color: var(--theme-text);
   }
 
+  .author__urls .fa-github,
+  .author__urls .fa-github-alt,
+  .author__urls .fa-github-square,
+  .author__urls .fa-square-github {
+    color: var(--theme-text);
+  }
+
   .greedy-nav button {
     background-color: #1e293b;
     color: var(--theme-text);
