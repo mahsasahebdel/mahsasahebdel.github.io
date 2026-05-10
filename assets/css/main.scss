@@ -44,17 +44,27 @@
   --theme-bg: #ffffff;
   --theme-text: #1b1b1b;
   --theme-link: #0066cc;
+  --theme-surface: #ffffff;
+  --theme-border: #e5e7eb;
 }
 
 :root[data-theme="night"] {
   --theme-bg: #0f172a;
   --theme-text: #e2e8f0;
   --theme-link: #7dd3fc;
+  --theme-surface: #0f172a;
+  --theme-border: #1e293b;
 }
 
 body {
   background-color: var(--theme-bg);
   color: var(--theme-text);
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+html {
+  background-color: var(--theme-bg);
+  transition: background-color 0.25s ease;
 }
 
 a {
@@ -62,7 +72,124 @@ a {
 }
 
 .theme-toggle {
-  margin-left: 0.75rem;
+  position: fixed;
+  top: 0.65rem;
+  right: 0.9rem;
+  transform: none;
+  margin-left: 0;
+  width: 2.6rem;
+  height: 2.6rem;
+  min-width: 2.6rem;
+  padding: 0;
+  border: 1px solid rgba(148, 163, 184, 0.35) !important;
+  background: rgba(255, 255, 255, 0.45);
+  color: var(--theme-text) !important;
+  font-weight: 700;
+  font-size: 1.15rem;
+  line-height: 1.2;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 3px 8px rgba(15, 23, 42, 0.18);
+  z-index: 1100;
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus {
+  background: rgba(255, 255, 255, 0.62);
+  border-color: rgba(148, 163, 184, 0.55) !important;
+  box-shadow: 0 6px 14px rgba(15, 23, 42, 0.24);
+  transform: translateY(-1px);
+}
+
+.masthead,
+.greedy-nav,
+.page__footer {
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+
+:root[data-theme="night"] {
+  .masthead,
+  .greedy-nav,
+  .page__footer,
+  #main,
+  .initial-content,
+  .archive,
+  .page,
+  .page__content,
+  .sidebar,
+  .layout--single,
+  .layout--archive {
+    background-color: var(--theme-bg);
+    color: var(--theme-text);
+  }
+
+  .masthead,
+  .page__footer,
+  .greedy-nav .hidden-links {
+    border-color: var(--theme-border);
+  }
+
+  .page__footer,
+  .page__footer footer {
+    background-color: var(--theme-bg);
+    border-top: 0;
+    box-shadow: none;
+    margin-top: 0;
+  }
+
+  .greedy-nav a,
+  .page__footer,
+  .page__footer a,
+  .page__footer .fas,
+  .page__footer .fab,
+  .page__footer .far,
+  .page__footer .fal,
+  .author__urls a,
+  .sidebar a {
+    color: var(--theme-text);
+  }
+
+  .author__urls .fa-github,
+  .author__urls .fa-github-alt,
+  .author__urls .fa-github-square,
+  .author__urls .fa-square-github {
+    color: var(--theme-text);
+  }
+
+  .greedy-nav button {
+    background-color: #1e293b;
+    color: var(--theme-text);
+  }
+
+  .theme-toggle {
+    background: rgba(15, 23, 42, 0.45);
+    color: #f8fafc !important;
+    border-color: rgba(148, 163, 184, 0.35) !important;
+  }
+
+  .theme-toggle:hover,
+  .theme-toggle:focus {
+    background: rgba(15, 23, 42, 0.65);
+    border-color: rgba(203, 213, 225, 0.5) !important;
+    box-shadow: 0 6px 16px rgba(2, 6, 23, 0.45);
+  }
+}
+
+@media (max-width: 767px) {
+  .theme-toggle {
+    width: 2.35rem;
+    height: 2.35rem;
+    min-width: 2.35rem;
+    top: 0.55rem;
+    right: 0.55rem;
+    font-size: 1rem;
+    z-index: 1200;
+  }
 }
 
 .author__quick-links {
