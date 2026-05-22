@@ -13,7 +13,8 @@ Hi, I'm Mahsa Sahebdel.
 I am currently a Computer Science MS/PhD student at the [Manning College of Information and Computer Sciences](https://www.cics.umass.edu/) in [University of Massachusetts Amherst](https://www.umass.edu/). I am working at the [Sustainability, Optimization, Learning, and Algorithms Research Lab](https://solar.cs.umass.edu/) under the supervision of [Mohammad Hajiesmaili](https://www.cics.umass.edu/people/hajiesmaili-mohammad). My work focuses on designing learning-augmented online algorithms for optimizing various objectives across different applications.
 
 ## News
-
+- **2026.5:** I joined Symbotic as an **ML Engineer Intern**!
+  
 - **2026.1:** I received the **Spring 2026 Thesis Proposal Writing Fellowship**!
 
 - **2025.12:** Our paper, *[Smoothed Online Optimization for Target Tracking: Robust and Learning-Augmented Algorithms](https://arxiv.org/pdf/2509.05930?)*, got accepted to **ALT 2026**!
