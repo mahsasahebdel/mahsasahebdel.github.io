@@ -13,7 +13,16 @@ Hi, I'm Mahsa Sahebdel.
 I am currently a Computer Science MS/PhD student at the [Manning College of Information and Computer Sciences](https://www.cics.umass.edu/) in [University of Massachusetts Amherst](https://www.umass.edu/). I am working at the [Sustainability, Optimization, Learning, and Algorithms Research Lab](https://solar.cs.umass.edu/) under the supervision of [Mohammad Hajiesmaili](https://www.cics.umass.edu/people/hajiesmaili-mohammad). My work focuses on designing learning-augmented online algorithms for optimizing various objectives across different applications.
 
 ## News
-- **2026.5:** I joined Symbotic as an **ML Engineer Intern**!
+
+- **2026.9:** Our paper, *[Online Joint Pricing and Scheduling
+in Distributed Networked Platforms]*, got accepted to **ACM MobiHoc 2026**!
+
+- **2026.9:** Our paper, *[Reusable Resource Allocation under Adversarial Arrivals:
+Learning with Delayed Feedback]*, got accepted to **ACM MobiHoc 2026**!
+  
+- **2026.8:** I continued at Symbotic as a **PhD AI/ML Software Engineer Intern**!
+  
+- **2026.5:** I joined Symbotic as an **PhD AI/ML Software Engineer Intern**!
   
 - **2026.1:** I received the **Spring 2026 Thesis Proposal Writing Fellowship**!
 
