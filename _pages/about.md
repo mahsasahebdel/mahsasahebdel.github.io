@@ -14,11 +14,11 @@ I am currently a Computer Science MS/PhD student at the [Manning College of Info
 
 ## News
 
-- **2026.9:** Our paper, *[Online Joint Pricing and Scheduling
-in Distributed Networked Platforms]*, got accepted to **ACM MobiHoc 2026**!
+- **2026.9:** Our paper, *Online Joint Pricing and Scheduling
+in Distributed Networked Platforms*, got accepted to **ACM MobiHoc 2026**!
 
-- **2026.9:** Our paper, *[Reusable Resource Allocation under Adversarial Arrivals:
-Learning with Delayed Feedback]*, got accepted to **ACM MobiHoc 2026**!
+- **2026.9:** Our paper, *Reusable Resource Allocation under Adversarial Arrivals:
+Learning with Delayed Feedback*, got accepted to **ACM MobiHoc 2026**!
   
 - **2026.8:** I continued at Symbotic as a **PhD AI/ML Software Engineer Intern**!
   
