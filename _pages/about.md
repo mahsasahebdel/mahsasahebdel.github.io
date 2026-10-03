@@ -82,6 +82,7 @@ Learning with Delayed Feedback*, got accepted to **ACM MobiHoc 2026**!
   KDD 2026 (Applied Data Science Track)
 
 - **Reviewer**
+  - NeurIPS 2026
   - KDD 2026 (1st Cycle)
   - Industry Track of The ACM Web Conference 2026
   - NeurIPS 2025
