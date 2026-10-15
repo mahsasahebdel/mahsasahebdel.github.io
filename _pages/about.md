@@ -51,6 +51,11 @@ Learning with Delayed Feedback*, got accepted to **ACM MobiHoc 2026**!
 
 
 ## Publications
+- **Smoothed Online Optimization for Target Tracking:Robust and Learning-Augmented Algorithms** \
+  Ali Zeynali, __Mahsa Sahebdel__, Qingsong Liu, Mohammad H. Hajiesmaili, Ramesh K. Sitaraman  
+  **(International Conference on Algorithmic Learning Theory (ALT), 2026)**  
+  [Paper](https://arxiv.org/pdf/2509.05930?)
+  
 - **BOLA360: Near-optimal View and Bitrate Adaptation for 360-degree Video Streaming** \
   Ali Zeynali, __Mahsa Sahebdel__, Mohammad H. Hajiesmaili, Ramesh K. Sitaraman  
   **(ACM Transactions on Multimedia Computing, Communications and Applications — 2025)**  
