@@ -20,9 +20,9 @@ in Distributed Networked Platforms*, got accepted to **ACM MobiHoc 2026**!
 - **2026.9:** Our paper, *Reusable Resource Allocation under Adversarial Arrivals:
 Learning with Delayed Feedback*, got accepted to **ACM MobiHoc 2026**!
   
-- **2026.8:** I continued at Symbotic as a **PhD AI/ML Software Engineer Intern**!
+- **2026.8:** I continued at Symbotic as a **Machine Learning Scientist Intern**!
   
-- **2026.5:** I joined Symbotic as an **PhD AI/ML Software Engineer Intern**!
+- **2026.5:** I joined Symbotic as a **Machine Learning Scientist Intern**!
   
 - **2026.1:** I received the **Spring 2026 Thesis Proposal Writing Fellowship**!
 
